@@ -1,0 +1,45 @@
+{
+  "name": "slidev-theme-snowdog",
+  "version": "0.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build slides.md --download",
+    "dev": "slidev slides.md --open",
+    "export": "slidev export slides.md",
+    "screenshot": "slidev export slides.md --format png"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3",
+    "@slidev/types": "^0.40.3",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.6.2"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.13",
+    "@iconify-json/logos": "^1.1.23",
+    "@iconify-json/mdi": "^1.1.49",
+    "@slidev/cli": "^0.40.3",
+    "playwright-chromium": "^1.31.2"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "IBM Plex Sans",
+        "mono": "IBM Plex Mono"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+:root {
+    --slidev-theme-primary: #5d8392;
+}
+
+html.light .slidev-layout.cover.circle,
+html.light .slidev-layout.thanks.circle,
+html.light .slidev-layout.intro.circle {
+    background-image: url('../assets/bg_circle2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+html.dark .slidev-layout:nth-child(even) {
+    background-image: url('../assets/bg_dark_l.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+html.dark .slidev-layout:nth-child(odd) {
+    background-image: url('../assets/bg_dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+html.light .slidev-layout:nth-child(even) {
+    background-image: url('../assets/bg_left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+html.light .slidev-layout:nth-child(odd) {
+    background-image: url('../assets/bg_right.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+html.dark .slidev-layout.left-only {
+    background-image: url('../assets/bg_dark_l.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+html.light .slidev-layout.left-only {
+    background-image: url('../assets/bg_left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+
+h1::after {
+    content: url("../assets/line-8922.png");
+    display: block;
+    width: 0px;
+    height: 0px;
+    scale: 0.6;
+}
+
+.center h1::after {
+    width: 207px;
+    margin: auto;
+}
+
+.slidev-layout h1 {
+    margin-bottom: 2rem;
+    font-family: var(--slidev-code-font-family);
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+    @apply h-full grid;
+
+    h1 {
+        margin-top: 340px;
+    }
+}
+
+.slidev-layout.thanks {
+    @apply h-full grid text-center;
+}
+
+.author {
+    font-weight: bold;
+    font-family: var(--slidev-code-font-family);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: larger;
+}
+
+ul li::marker {
+    color: #FF674D;
+}
+
+ol {
+    counter-reset: section;
+}
+
+ol li {
+    counter-increment: section;
+}
+
+ol li::marker {
+    color: #2F2A95;
+    content: counter(section) " / ";
+}
