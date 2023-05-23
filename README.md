@@ -21,3 +21,10 @@ Deployed preview for tests: [A11y space](https://a11y-space.vercel.app/)
 Presentation made with [Sli.dev](https://sli.dev/)
 
 
+## Polish version
+
+This presentation is available also in polish:
+
+<a href="https://a11y-workshops-pres-pl.vercel.app/" target="_blank">slides</a>
+
+<a href="https://github.com/SnowdogApps/a11y-workshops-pres-pl" target="_blank">Github repo</a>
