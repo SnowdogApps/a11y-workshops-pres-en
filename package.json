@@ -1,6 +1,8 @@
 {
-  "name": "slidev-theme-snowdog",
-  "version": "0.0.0",
+  "name": "a11y-frontend-presentation",
+  "version": "1.0.0",
+  "author": "Ania Karon",
+  "license": "MIT",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -30,7 +32,6 @@
     "@slidev/cli": "^0.40.3",
     "playwright-chromium": "^1.31.2"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "light",
     "highlighter": "all",

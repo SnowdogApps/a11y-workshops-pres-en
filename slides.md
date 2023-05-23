@@ -17,27 +17,6 @@ Workshops
 layout: aboutme
 ---
 
----
-
-# Workshops plan
-
-
-12:00 - 12:15 Introduction
-
-12:15 - 12:35 Testing tools, project installation
-
-12:35 - 13:00 Fixing accessibility: structure and semantic
-
-13:00 - 13:15 Break
-
-13:15 - 14:00 Fixing accessibility: components
-
-14:00 - 14:15 Break
-
-14:15 - 14:45 Testing
-
-14:45 - 15:00 Summary
-
 
 ---
 layout: center
@@ -48,7 +27,7 @@ class: "text-center"
 
 ## How we work?
 
-Repo: [https://github.com/anqaka/a11y-space](https://github.com/anqaka/a11y-space)
+Repo: [https://github.com/SnowdogApps/a11y-space](https://github.com/SnowdogApps/a11y-space)
 
 Website: [A11y space](https://a11y-space.vercel.app/)
 
